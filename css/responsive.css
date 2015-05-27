@@ -25,7 +25,6 @@
   }
   #gallery li:nth-child(4n) {
     clear: left;
-    background-color: red;
   }
   /****************************************
   PAGE: ABOUT
@@ -46,10 +45,10 @@
       font-size: 1.125;
       margin-right: 5%;
       text-align: right;
-      width: 45%;
+      width: 60%;
     }
     #logo {
-      float: left;
+      float: center;
       margin-left: 5%;
       text-align: left;
       width: 45%;
@@ -65,4 +64,6 @@
       border-bottom: 5px solid #599a68;
       margin-bottom: 60px;
     }
+
+    
   }

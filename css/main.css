@@ -72,12 +72,13 @@ nav {
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 20px;
   padding: 0;
 }
 
 nav li {
   display: inline-block;
+  color: black;
 }
 
 nav a {
@@ -220,12 +221,12 @@ a {
 
 
 nav a, nav a:visited {
-  color: #fff;
+  color: white;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #black;
 }
 
 
