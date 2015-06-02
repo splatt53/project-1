@@ -7,10 +7,13 @@
     width: 50%;
     float: left;
   }
+  
   #secondary {
     width: 40%;
     float: right;
   }
+  
+  
   /****************************************
   3 * 5 = 15
   100% - 15% = 85%
@@ -20,9 +23,14 @@
   PAGE: POTFOLIO
   *****************************************/
   
-  #gallery li {
-    width: 28.33333%;
+  /*#gallery li {*/
+  /*  width: 28.33333%;*/
+  /*}*/
+  
+    #gallery li {
+    width: 28.3%;
   }
+  
   #gallery li:nth-child(4n) {
     clear: left;
   }
@@ -34,6 +42,9 @@
     float: left;
     margin: 0 5% 80px 0;
   }
+  
+}
+  
   @media screen and (min-width: 660px) {
     /****************************************
   HEADER
@@ -64,6 +75,10 @@
       border-bottom: 5px solid #599a68;
       margin-bottom: 60px;
     }
+    
+    #gallery li {
+    width: 27%;
+  }
 
     
   }

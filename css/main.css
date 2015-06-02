@@ -10,6 +10,8 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+  color: black;
+  text-align: center;
 }
 
 a {
@@ -30,7 +32,7 @@ HEADING
 
 header {
   float: left;
-  margin: 0 0 10px 0;
+  margin: -20px 0 10px 0;
   padding: 20px 0 0 0;
   width: 100%
 }
@@ -50,14 +52,23 @@ h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
-
 }
 
 #logomove {
   padding: 0 0 0 30px;
-  
-  
 }
+
+#mission {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  padding: 0 20% 10px 20%;
+}
+
+
+
+
+
 
 
 /****************************************
@@ -135,8 +146,8 @@ PAGE: PORTFOLIO
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7
+  font-size: 0.80em;
+  color: #336600;
 } 
 
 /****************************************
@@ -221,13 +232,18 @@ a {
 
 
 nav a, nav a:visited {
-  color: white;
+  color: darkgreen;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #black;
 }
+
+/****************************************
+test note
+*****************************************/
+
 
 
 
