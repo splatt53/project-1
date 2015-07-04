@@ -33,7 +33,7 @@ HEADING
 header {
   float: left;
   margin: -20px 0 10px 0;
-  padding: 20px 0 0 0;
+  padding: 50px 0 0 0;
   width: 100%
 }
 
@@ -55,7 +55,7 @@ h2 {
 }
 
 #logomove {
-  padding: 0 0 0 30px;
+  padding: 5px 0 10px 30px;
 }
 
 #mission {
@@ -78,7 +78,7 @@ NAVIGATION
 nav {
  text-align: center;
  padding: 10px 0;
- margin: 20px 0 0; 
+ margin: 45px 0 0; 
 }
 
 nav ul {
@@ -161,6 +161,30 @@ PAGE ABOUT
       border-radius: 100%;
 }
 
+#aboutimg {
+  float: left;
+  clear:left;
+  padding: 0px 40px 0 30px;
+  margin: 0px 20px 20px 20px;
+}
+
+#p-about {
+  padding: 20px 5%;
+}
+
+
+
+
+#ptextabout {
+  padding: 5% 5% 5px;
+  
+  
+  
+  
+  
+  
+}
+
 
 /****************************************
 PAGE: CONTACT
@@ -221,7 +245,7 @@ nav {
 }
 
 h1, h2 {
-  color: #fff;
+  color: black;
 }
 
 /* LINKS */

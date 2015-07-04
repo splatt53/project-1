@@ -73,11 +73,16 @@
     }
     header {
       border-bottom: 5px solid #599a68;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
     
     #gallery li {
-    width: 27%;
+      width: 27%;
+  }
+  
+    #aboutimg {
+      float: left;
+      padding: 0px 40px 0 30px;
   }
 
     
